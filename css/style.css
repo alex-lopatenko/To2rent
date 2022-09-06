@@ -191,3 +191,62 @@ body {
     text-decoration: none;
     padding: 13px 48px;
 }
+
+.reason {
+    padding: 100px 0;
+}
+.reason__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason__item {
+    width: 470px;
+}
+
+.reason__title {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    padding-left: 136px;
+    position: relative;
+}
+
+.reason__title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103px;
+    height: 103px;
+}
+
+.reason__title--icon-1::before {
+    background-image: url(../images/time-icon.png);
+}
+
+.reason__title--icon-2::before {
+    background-image: url(../images/world-icon.png);
+}
+
+.reason__text {
+    margin-bottom: 42px;
+}
+
+.reason__link {
+    color: #888;
+    padding-left: 36px;
+    position: relative;
+}
+
+.reason__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/arrow-black.svg);
+}
